@@ -28,6 +28,6 @@ public class SnuTekst {
 		}
 	}
 	public static void baklengs(String tekst, int siste){
-		baklengs(tekst.substring(0, tekst.length()-1));	
+		baklengs(tekst.substring(0, siste));	
 	}
 }
